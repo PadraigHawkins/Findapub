@@ -15,6 +15,7 @@ function GetValue()
     "WHELAN'S",
     "P.MAC’S",
     "FLANNERY'S",
+    "DOYLE'S",
     "MARKET BAR",
     "THE BERNARD SHAW",
     "JIMMY RABBITTES");
