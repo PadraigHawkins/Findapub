@@ -23,5 +23,21 @@ function GetValue()
    document.getElementById("message").innerHTML=random;
 }
 
+$("a.btn").mousedown(function(){
+    $(this).addClass("pressed");
+});
 
+$("a.btn").mouseup(function(){
+    $(this).removeClass("pressed");
+});
+
+
+
+$("a.btn").on("tap",function(){
+    $(this).removeClass("pressed");
+});
+
+$("a.btn").mouseout(function(){
+    $(this).removeClass("pressed");
+});
 
