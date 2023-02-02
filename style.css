@@ -133,22 +133,18 @@
       }
       
       .btn {
-        color: #9ec1d2;
-        background: #fff;
-        text-decoration: none;
-        font-family: 'Roboto';
-        text-transform: uppercase;
-        font-size: 14px;
-        letter-spacing: 1px;
-        font-weight: 600;
-        border: 1px solid #9ec1d2;
-        border-radius: 100px;
-        padding: 20px 50px;
-        transition-duration: .2s;
-        display: inline-block;
-        perspective: 1000px;
-        transform-origin: center bottom 0px;
-        transform: matrix(1, 0, 0, 1, 0, 0);
+        display:inline-block;
+        padding:0.3em 1.2em;
+        margin:0 0.3em 0.3em 0;
+        border-radius:2em;
+        box-sizing: border-box;
+        text-decoration:none;
+        font-family:'Roboto',sans-serif;
+        font-weight:300;
+        color:#FFFFFF;
+        background-color:#4eb5f1;
+        text-align:center;
+        transition: all 0.2s;
       }
       
       .btn:hover {
